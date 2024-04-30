@@ -1,0 +1,3 @@
+select sender,count(*) as messagecount
+from chats
+group by sender
