@@ -1,0 +1,5 @@
+
+
+
+select * from chats where (sender='2' and recievedby ='3') or( sender='3' and recievedby='2')
+order by messagedatetime desc
